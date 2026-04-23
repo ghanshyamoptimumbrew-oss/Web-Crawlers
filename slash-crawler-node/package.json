@@ -1,0 +1,17 @@
+{
+  "name": "slash-crawler",
+  "version": "1.0.0",
+  "description": "Crawler to find internal links missing trailing slash",
+  "main": "crawl.js",
+  "scripts": {
+    "start": "node crawl.js",
+    "setup": "node setup.js",
+    "clear": "node clear-data.js"
+  },
+  "keywords": ["crawler", "seo", "links"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^21.0.0"
+  }
+}
